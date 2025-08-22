@@ -1,5 +1,5 @@
 /*
- * Projeto: API RESTful de Gerenciamento de Tarefas
+ * Projeto: Desenvolvimento da API 
  * Autor: Ana Luiza
  * RU: 4706190
  * Data: 12/12/2025
