@@ -1,0 +1,116 @@
+{
+  "info": {
+    "name": "Tarefas_API_Ana_4706190",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Criar",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"nome\":\"Desenvolvimento da API\",\"dataEntrega\":\"2025-12-12\",\"responsavel\":\"Ana 4706190\"}"
+        },
+        "url": {
+          "raw": "http://localhost:8080/tarefas",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "tarefas"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Listar",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:8080/tarefas",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "tarefas"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Buscar 1",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:8080/tarefas/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "tarefas",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Atualizar 1",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"nome\":\"Desenvolvimento da API (Atualizado)\",\"dataEntrega\":\"2025-12-12\",\"responsavel\":\"Ana 4706190\"}"
+        },
+        "url": {
+          "raw": "http://localhost:8080/tarefas/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "tarefas",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Remover 1",
+      "request": {
+        "method": "DELETE",
+        "url": {
+          "raw": "http://localhost:8080/tarefas/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "tarefas",
+            "1"
+          ]
+        }
+      }
+    }
+  ]
+}
