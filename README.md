@@ -23,7 +23,3 @@ Os testes foram feitos no Postman e estão disponíveis na pasta `docs/`:
 3. Atualização (`PUT`)
 4. Exclusão (`DELETE`)
 
-## 📚 Como executar
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/SEU-USUARIO/api-tarefas-springboot.git
